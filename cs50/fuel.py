@@ -16,5 +16,5 @@ while True:
                 print('F')  
         else:
             print(f'{result:.0f}%')
-            break
+        break
         
