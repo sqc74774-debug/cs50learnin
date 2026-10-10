@@ -5,10 +5,11 @@ x=int(parts[0])
 z=int(parts[2]) 
 y=parts[1] 
 if y=='+':
-    print(x+z)  
+   result=(x+z)
 elif y=='-':
-    print(x-z)
+    result=(x-z)
 elif y=='*':
-    print(x*z)
+    result=(x*z)   
 else:
-    print(x/z)
+    result=(x/z)
+print(f'{result:.1f}')
